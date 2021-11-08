@@ -2,7 +2,6 @@ import os
 import string
 def hapax(all) :
     words = all.split()
-
     for word in words :
         if word in count :
             count[word] += 1
