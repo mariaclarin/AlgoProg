@@ -10,12 +10,6 @@ def hapax(all) :
             count[word] = 1
     return count
 
-# def counter(all):
-#     data = {}
-#     for word in all.split():
-#         data[word] = data.get(word,0)+1
-#     return data
-
 os.chdir("C:/Users/clari/Documents/GitHub/AlgoProg/Exercise 3 (Files)/")
 file = open("ebook.txt", "r")
 all = file.read().lower()
